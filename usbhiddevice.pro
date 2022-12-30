@@ -10,5 +10,6 @@ HEADERS += tusb_config.h \
            usb_descriptors.h \
 		   build/generated/pico_base/pico/config_autogen.h
 
-SOURCES += main.c \
+SOURCES += \
+		   main.cpp \
 		   usb_descriptors.c
